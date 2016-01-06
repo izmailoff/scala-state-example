@@ -1,6 +1,8 @@
 # Build Status
 
 [![Join the chat at https://gitter.im/izmailoff/scala-state-example](https://badges.gitter.im/izmailoff/scala-state-example.svg)](https://gitter.im/izmailoff/scala-state-example?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Join the chat at https://gitter.im/izmailoff/scala-state-example](https://badges.gitter.im/izmailoff/scala-state-example.svg)](https://gitter.im/izmailoff/scala-state-example?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/izmailoff/scala-state-example.png?branch=master)](https://travis-ci.org/izmailoff/scala-state-example)
 
 # Test Coverage
