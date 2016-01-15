@@ -8,13 +8,13 @@ object StateExample extends App {
   def finishCall(calls: CallState, phone: PhoneNumber): CallState =
     calls - phone
 
-  def startCallingPeople(calls: CallState) = {
+  def startCallingPeople(calls: CallState): CallState = {
     val intermediateState1 = startCall(calls, User("one"), "123")
     val intermediateState2 = startCall(intermediateState1, User("two"), "456")
     intermediateState2
   }
 
-  def hangupCalls(calls: CallState) = {
+  def hangupCalls(calls: CallState): CallState = {
     val intermediateState1 = finishCall(calls, "123")
     val intermediateState2 = finishCall(intermediateState1, "456")
     intermediateState2
